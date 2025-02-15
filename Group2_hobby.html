@@ -4,72 +4,116 @@
     <meta charset="UTF-8">
     <title>Hobbies and Interests</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
-    
+
     <style>
-        body {
+         body {
             font-family: "Roboto", sans-serif;
             margin: 0;
             padding: 0;
-            color: blue;
             background-color: #000000;
+            color: #000000;
         }
-        
-        .hobbies {
+        .title {
             text-align: center;
-            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .title h1 {
+            font-size: 2.5em;
+            color: #F4DFC8;
+        }
+
+        .paragraph {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #F4DFC8;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .hobbies {
+            background-color: #F4DFC8;
         }
 
         .hobbies h1 {
-            font-size: 2em;
-            color: black;
+            font-size: 2.5em;
+            color: #000000;
+            text-align: left; 
+        }
+
+        .hobbies p {
+            text-align: left;
         }
 
         .group {
+            background-color: #F4EAE0;
+            padding: 20px;
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
-            background: white;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; 
         }
 
         .group h2 {
-            color: black;
-            border-bottom: 2px solid #ddd;
+            font-size: 2em;
+            border-bottom: 2px solid #000000;
             padding-bottom: 5px;
         }
 
         ul {
             list-style-type: square;
             padding-left: 20px;
+            text-align: left; 
+            margin: 0 auto;
+            max-width: 600px;
         }
 
         .links {
-            text-align: center;
-            margin: 20px 0;
+            background-color: #FAF6F0;
+            padding: 20px;
+            text-align: center; 
+        }
+
+        .links h2 {
+            font-size: 2em;
+            color: #000000;
         }
 
         .links a {
             display: inline-block;
-            margin: 0 10px;
+            margin: 10px;
             padding: 10px 15px;
-            background-color: #007BFF;
-            color: white;
+            background-color: #000000;
+            color: #F4DFC8;
             text-decoration: none;
             border-radius: 5px;
         }
 
         .links a:hover {
-            background-color: #0056b3;
+            background-color: #F4DFC8;
+            color: #000000;
         }
 
         .images {
-            text-align: center;
-            margin-top: 20px;
+            background-color: #F4DFC8;
+            padding: 20px;
+            text-align: center; 
+        }
+
+        .images h2 {
+            font-size: 2em;
+            color: #000000;
         }
 
         .images img {
@@ -77,36 +121,53 @@
             width: 200px;
             border-radius: 10px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+        }
+
+        .benefits {
+            background-color: #F4EAE0;
+            padding: 20px;
+        }
+
+        .benefits h2 {
+            font-size: 2em;
+            color: #000000;
         }
 
         .benefits-table {
             width: 80%;
             margin: 20px auto;
             border-collapse: collapse;
-            background: white;
+            background: #FAF6F0;
+            color: #000000;
+            text-align: center; 
+            border: 2px solid #FFFFFF;
         }
 
         .benefits-table th, .benefits-table td {
             padding: 10px;
-            border: 1px solid #ddd;
+            border: 1px solid #000000;
             text-align: center;
+            border: 2px solid #FFFFFF;
         }
 
         .benefits-table th {
-            background-color: #007BFF;
-            color: white;
+            background-color: #000000;
+            color: #F4DFC8;
         }
 
         .benefits-table tr:nth-child(even) {
-            background-color: #f9f9f9;
+            background-color: #F4DFC8;
         }
     </style>
 </head>
 <body>
 
-    <div class="hobbies">
+    <div class="title">
         <h1>Our Hobbies and Interests</h1>
-        <p>Most of us are interested in playing games whether it is on pcs, mobile, online or offline. </p>
+    </div>
+    <div class="paragraph">
+        <p>Most of us are interested in playing games whether it is on PCs, mobile, online, or offline.</p>
     </div>
 
     <div class="group">
@@ -138,7 +199,7 @@
             <li>Sports (Basketball and Table Tennis)</li>
         </ul>
     </div>
-
+<br>
     <div class="links">
         <h2>Links Related to Us:</h2>
         <a href="https://www.facebook.com/Jade.Ricafort6/">Jade's Facebook</a>
@@ -146,19 +207,16 @@
         <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
         <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
     </div>
-
+<br>
     <div class="images">
         <h2>Images of our Hobbies:</h2>
         <img src="https://i.pinimg.com/736x/e9/c8/15/e9c8153f5e24cbe9709a17f2efc63dbf.jpg" alt="gaming image">
         <img src="https://i.pinimg.com/736x/3d/4d/ba/3d4dba9b7eb1a501143e54605c41d045.jpg" alt="basketball">
-        <!--
-        <img src="https://images.alphacoders.com/114/1149362.jpg" alt="valorant omen">>
-        <img src="https://flawfinder.wordpress.com/wp-content/uploads/2023/09/screen-shot-2023-09-30-at-10.15.51-am.png" alt="frieren">>
-        -->
-        
+        <img src="https://images.alphacoders.com/114/1149362.jpg" alt="valorant omen">
+        <img src="https://flawfinder.wordpress.com/wp-content/uploads/2023/09/screen-shot-2023-09-30-at-10.15.51-am.png" alt="frieren">
     </div>
 
-     <table class="benefits-table">
+    <table class="benefits-table">
         <tr>
             <th>Hobby</th>
             <th>Benefits</th>
