@@ -1,5 +1,5 @@
 # Trends-Repository-24-25
-Trends Repository 24-25
+
 
 RECITATION 3 - Laboratory Exercise 1
 https://viperestjade.github.io/Trends-Repository-24-25/
